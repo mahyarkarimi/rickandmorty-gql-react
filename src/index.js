@@ -10,14 +10,16 @@ import {
   gql
 } from "@apollo/client";
 
-import 'uikit/dist/js/uikit';
-import 'uikit/dist/js/uikit-icons';
+import UIKit from 'uikit/dist/js/uikit';
+import UIKitIcons from 'uikit/dist/js/uikit-icons';
 import 'uikit/dist/css/uikit.min.css';
+
 
 import './index.css';
 import App from './App';
 import { apolloClient } from './utils';
 import reportWebVitals from './reportWebVitals';
+UIKit.use(UIKitIcons);
 
 ReactDOM.render(
   <React.StrictMode>
