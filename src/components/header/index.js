@@ -7,7 +7,7 @@ const Header = ({
     return (
         <nav className={`uk-navbar-container uk-margin ${className}`} style={style} data-uk-navbar>
             <div className="uk-navbar">
-            <a className="uk-navbar-item uk-logo" href="#">Logo</a>
+            <a className="uk-navbar-item uk-logo">Rick And Morty</a>
                 <div className="uk-navbar-center-right"><div>
                     <ul className="uk-navbar-nav">
                         <li className="uk-active"><Link to="/">Home</Link></li>
@@ -15,9 +15,9 @@ const Header = ({
                             <a href="#">More</a>
                             <div className="uk-navbar-dropdown">
                                 <ul className="uk-nav uk-navbar-dropdown-nav">
-                                    <li className="uk-active"><a href="#">More</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li className="uk-active"><a >More</a></li>
+                                    <li><a >About</a></li>
+                                    <li><a >Contact Us</a></li>
                                 </ul>
                             </div>
                         </li>
