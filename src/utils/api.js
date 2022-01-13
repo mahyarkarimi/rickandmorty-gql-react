@@ -13,8 +13,8 @@ const client = new ApolloClient({
 
 export const queries = {
   characters: gql`
-    query($page: Int!){
-        characters(page: $page){
+    query($page: Int!, $filter: FilterCharacter){
+        characters(page: $page, filter: $filter){
           info{
             count,
             pages,
