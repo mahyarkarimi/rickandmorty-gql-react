@@ -1,0 +1,15 @@
+.rc-pagination-item {
+	cursor: pointer;
+	border: 2px solid transparent;
+	margin: 1px;
+	transition: all ease-in-out 0.5s;
+
+	&:hover {
+		border: 2px solid rgba($color: #aaaaaa, $alpha: 0.7);
+		background-color: rgba($color: #aaaaaa, $alpha: 0.5);
+	}
+	&-active {
+		border: 2px solid rgba($color: #aaaaaa, $alpha: 0.4);
+		background-color: rgba($color: #aaaaaa, $alpha: 0.4);
+	}
+}
