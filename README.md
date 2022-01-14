@@ -7,6 +7,10 @@ To run project run the following commands
 3. `npm install` or `yarn install`
 4. `npm run start` or `yarn start`
 
+## Components
+   Modal, List, Card, Button, header and footer are the components created from UIKit.
+   The pagination component is based on <a href='https://www.npmjs.com/package/rc-pagination'>rc-pagination</a> and UIKit styles
+   Search is based on lodash debounce and graph query filter in characters model of API
 
 ## Screenshots
 1. Main page
@@ -15,3 +19,9 @@ To run project run the following commands
    <image src="./screenshot/sc2.jpg" />
 3. Main page with search
    <image src="./screenshot/sc3.jpg" />
+4. Error page
+   <image src="./screenshot/sc4.jpg" />
+5. Login modal
+   <image src="./screenshot/sc5.jpg" />
+6. Empty response page
+   <image src="./screenshot/sc6.jpg" />
